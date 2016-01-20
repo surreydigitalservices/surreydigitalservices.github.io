@@ -2,6 +2,7 @@
     height: 100%;
     color: #212121;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    padding-top: 40px;
 }
 .landing header {
     display: table;
@@ -50,4 +51,10 @@ footer {
     .landing .brand-heading {
         font-size: 100px;
     }
+}
+.navbar-sds {
+    transition: top 0.5s ease-in-out;
+}
+.navbar-sds .navbar-brand {
+    color: #fff;
 }
