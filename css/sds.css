@@ -1,0 +1,53 @@
+﻿html, body {
+    height: 100%;
+    color: #212121;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.landing header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: #212121 url(/images/ranmore-common-bw.jpg) no-repeat center center scroll;
+    background-size: cover;
+    color: #fff;
+    text-shadow: 1px 1px #aaa;
+}
+.landing .fa {
+    margin-bottom: 0.25em;
+}
+.landing .fa-3 {
+    font-size: 4em;
+    color: #fff;
+    text-shadow: none;
+}
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.landing .brand-heading {
+	margin: 0 0 35px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 40px;
+}
+.landing article {
+    padding: 5em 0;
+    min-height: 50%;
+}
+    .landing article h1 {
+        font-size: 60px;
+    }
+footer {
+    margin-top: 5em;
+    padding-top: 3em;
+    min-height: 20em;
+    background-color: #eee;
+}
+@media (min-width: 768px) {
+    .landing .brand-heading {
+        font-size: 100px;
+    }
+}

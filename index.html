@@ -5,6 +5,26 @@ title: Welcome to Surrey Digital Services
 <html lang="en" class="landing">
   {% include head.html %}
   <body>
+      <nav class="navbar navbar-inverse navbar-static-top hide">
+          <div class="container-fluid">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="/">Surrey Digital Services</a>
+              </div>
+
+              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav navbar-right">
+                      <li><a href="/">Home</a></li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+
 	<header class="landing">
 		<div class="text-vertical-center">
             <h1 class="brand-heading">SURREY DIGITAL SERVICES</h1>
@@ -13,103 +33,57 @@ title: Welcome to Surrey Digital Services
         </div>
 	</header>
 	
-	<article id="what">
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-xs-12 text-center">
-					<h1>What we do</h1>
-					<div class="row">
-						<div class="col-md-4 col-md-offset-2">
-							<div class="text-center">
-								<span class="fa fa-map-o fa-5x"></span>
-							</div>
-							<h3>Planning Hub</h3>
-							<p>Access to planning applications harvested from authorities in Surrey county via a consistent API.</p>
-							<p><a href="http://digitalservices.surreyi.gov.uk/" class="btn btn-default">More</a></p>
-						</div>
-						<div class="col-md-4">
-							<div class="text-center">
-								<span class="fa fa-search fa-5x"></span>
-							</div>
-							<h3>Addresses</h3>
-							<p>Address lookup API for PSMA signatories using OS AddressBase Premium.</p>
-							<p><a href="http://digitalservices.surreyi.gov.uk/" class="btn btn-default disabled">More</a></p>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<h1>Blog</h1>
-					<div class="text-left">
-						{% for post in site.posts %}
-						<div>
-							<h2>
-							<a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-							<small class="post-meta">by {{ post.author }} on {{ post.date | date: "%-d %b %Y" }}</small>
-							</h2>
-							{{ post.excerpt }}
-							<a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
-						</div>
-						{% endfor %}						
-					</div>
-				</div>
-			</div>
-		</div>
-	</article>
-	
+    <div class="container-fluid text-center">
+        <article id="what">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>What we do</h1>
+                    <div class="row">
+                        <div class="col-md-4 col-md-offset-2">
+                            <div class="text-center">
+                                <span class="fa fa-map-o fa-5x"></span>
+                            </div>
+                            <h3>Planning Hub</h3>
+                            <p>Access to planning applications harvested from authorities in Surrey county via a consistent API.</p>
+                            <p><a href="http://digitalservices.surreyi.gov.uk/" class="btn btn-default">More</a></p>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="text-center">
+                                <span class="fa fa-search fa-5x"></span>
+                            </div>
+                            <h3>Addresses</h3>
+                            <p>Address lookup API for PSMA signatories using OS AddressBase Premium.</p>
+                            <p><a href="http://digitalservices.surreyi.gov.uk/" class="btn btn-default disabled">More</a></p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </article>
+        <article id="blog">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h1>Blog</h1>
+                    <div class="text-left">
+                        {% for post in site.posts limit:5 %}
+                        <div>
+                            <h2>
+                                <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                                <small class="post-meta">by {{ post.author }} on {{ post.date | date: "%-d %b %Y" }}</small>
+                            </h2>
+                            {{ post.excerpt }}
+                            <a href="{{ post.url | prepend: site.baseurl }}">Read more...</a>
+                        </div>
+                        {% endfor %}
+                        {% if site.post.size > 5 %}
+                        <p><a href="/blog/" class="btn btn-link">Find more blog posts...</a></p>
+                        {% end if %}
+                    </div>
+                </div>
+            </div>
+        </article>
+    </div>
+
 	{% include footer.html %}
-	
-	<style>
-		html, body { height: 100%; color: #212121; }
-		.landing header
-		{
-			display: table;
-			position: relative;
-			width: 100%;
-			height: 100%;
-			background: #212121 url(/images/ranmore-common-bw.jpg) no-repeat center center scroll;
-			background-size: cover;
-			color: #fff;
-			text-shadow: 1px 1px #aaa;
-		}
-		.landing .fa { margin-bottom: 0.25em; }
-		.landing .fa-3 { font-size: 4em; color: #fff; text-shadow: none; }
-		.text-vertical-center {
-    display: table-cell;
-    text-align: center;
-    vertical-align: middle;
-}
-.landing .brand-heading {
-	margin: 0 0 35px;
-    text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 40px;
-}
-.landing article
-{
-	padding: 5em 0;
-	min-height: 50%;
-}
-.landing article h1 {
-	font-size: 60px;
-}
-footer
-{
-	margin-top: 5em;
-	padding-top: 3em;
-	min-height: 20em;
-	background-color: #eee;
-}
-@media (min-width: 768px)
-{
-	.landing .brand-heading {
-		font-size: 100px;
-	}
-}
-	</style>
   </body>
 </html>

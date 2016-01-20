@@ -39,10 +39,4 @@
   </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-<script>
-  jQuery('a[href^="#"]').on('click', function(e) {
-    e.preventDefault();
-    var hash = this.hash;
-    jQuery('html, body').animate({ scrollTop: $(hash).offset().top }, 300, function() { window.location.hash = hash; });
-  });
-</script>
+<script src="/scripts/sds.js"></script>
