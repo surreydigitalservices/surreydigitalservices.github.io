@@ -20,7 +20,8 @@ The start of each post should contain [YAML Front Matter](http://jekyllrb.com/do
 layout: post
 title:  "Welcome to Jekyll!"
 date:   2016-01-20 11:54:38
-categories: jekyll update
+category: jekyll
+tags: jekyll update
 author: Ben
 ---
 ```
