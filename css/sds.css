@@ -48,7 +48,7 @@ body {
     }
 footer {
     margin-top: 5em;
-    padding-top: 3em;
+    padding: 3em 0;
     min-height: 20em;
     background-color: #eee;
 }
