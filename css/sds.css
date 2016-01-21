@@ -63,3 +63,11 @@ footer {
 .navbar-sds .navbar-brand {
     color: #fff;
 }
+
+.post .page-header small,
+.post h2 small
+{
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 0.6em;
+}
