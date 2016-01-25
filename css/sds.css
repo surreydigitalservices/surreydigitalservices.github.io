@@ -71,3 +71,6 @@ footer {
     text-transform: capitalize;
     margin-bottom: 0.6em;
 }
+
+.icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
+.icon > svg path { fill: #828282; }
