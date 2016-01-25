@@ -12,6 +12,6 @@ In 2014 the Surrey GIS Forum submitted an application to the Technology Strategy
 
 This we did.....check the results [here][planning_hub].
 
-![alt text](https://s3-eu-west-1.amazonaws.com/shbcdatastore/SDS_planning_on_iphone.png "Logo Title Text 1")
+![alt text](https://s3-eu-west-1.amazonaws.com/shbcdatastore/SDS_planning_on_iphone.png "iPhone")
 
 [planning_hub]: http://digitalservices.surreyi.gov.uk 
