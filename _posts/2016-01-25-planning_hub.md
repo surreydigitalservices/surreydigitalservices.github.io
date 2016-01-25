@@ -12,5 +12,6 @@ In 2014 the Surrey GIS Forum submitted an application to the Technology Strategy
 
 This we did.....check the results [here][planning_hub].
 
+![alt text](https://s3-eu-west-1.amazonaws.com/shbcdatastore/Guards+Redoubt+Plan.jpg "Logo Title Text 1")
 
 [planning_hub]: http://digitalservices.surreyi.gov.uk 
