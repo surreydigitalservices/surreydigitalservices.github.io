@@ -7,6 +7,7 @@ tags: planning
 author: James
 ---
 In 2014 the Surrey GIS Forum submitted an application to the Technology Strategy Board for funding. We were awarded £25,000 to develop an online planning hub consisting of the following:
+
 * All **decided** planning cases for the last 90 days
 * All **undecided** planning cases
 
