@@ -17,7 +17,9 @@ In July 2015, Ordnance Survey published new styling options for its MasterMap To
 
 At SDS we were very impressed with the new stylesheets provided by OS and wanted to get them rendered in QGIS. As you can see below, the results are pretty nice.
 
-![alt text](https://s3-eu-west-1.amazonaws.com/shbcdatastore/MasterMapTopoStyleExample.png)
+<img src="https://s3-eu-west-1.amazonaws.com/shbcdatastore/MasterMapTopoStyleExample.png" width="500">
+
+[//]: # (![](https://s3-eu-west-1.amazonaws.com/shbcdatastore/MasterMapTopoStyleExample.png))
 
 The powerful and versatile [FME] Desktop (Feature Manipulation Engine) from [Safe Software] provided the perfect platform for completing this task. Using a template provided by [SterlingGeo] I went to work updating the workspace to take advantage of the new style codes.  This included adding new documentation, publishing parameters, and updating the AttributeCreator Transformers.
 
