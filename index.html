@@ -58,7 +58,7 @@ title: Welcome to Surrey Digital Services
                         <div>
                             <h2>
                                 <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                                <span class="small post-meta">by {{ post.author }} on {{ post.date | date: "%-d %b %Y" }} <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span></span>
+                                <span class="small post-meta">by {{ post.author }} on {{ post.date | date: "%-d %b %Y" }} - <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span></span>
                             </h2>
                             {{ post.excerpt }}
                             <a href="{{ post.url | prepend: site.baseurl }}">Read more</a>
