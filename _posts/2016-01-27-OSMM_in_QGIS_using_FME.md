@@ -17,7 +17,9 @@ In July 2015, Ordnance Survey published new styling options for its MasterMap To
 
 At SDS we were very impressed with the new stylesheets provided by OS and wanted to get them rendered in QGIS. As you can see below, the results are pretty nice.
 
+<a href="https://s3-eu-west-1.amazonaws.com/shbcdatastore/MasterMapTopoStyleExample.png">
 <img src="https://s3-eu-west-1.amazonaws.com/shbcdatastore/MasterMapTopoStyleExample.png" class="img-responsive">
+</a>
 
 [//]: # (![](https://s3-eu-west-1.amazonaws.com/shbcdatastore/MasterMapTopoStyleExample.png))
 
