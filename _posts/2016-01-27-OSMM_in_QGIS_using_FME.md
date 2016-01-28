@@ -25,7 +25,7 @@ At SDS we were very impressed with the new stylesheets provided by OS and wanted
 
 The powerful and versatile [FME] Desktop (Feature Manipulation Engine) from [Safe Software] provided the perfect platform for completing this task. Using a template provided by [SterlingGeo] I went to work updating the workspace to take advantage of the new style codes.  This included adding new documentation, publishing parameters, and updating the AttributeCreator Transformers.
 
-By publishing certain parameters such as database connection detail,  this workspace becomes more accessible to less experienced FME users. Simply run the workspace with prompts and fill in the details. The style codes are added to the data using AttributeCreator transformers with conditional values (like CASE WHEN statements). This bypases the rather convoluted SQL scripts provided by OS. You are welcome to download, explore and try this FME workspace here (coming soon). 
+By publishing certain parameters such as database connection detail,  this workspace becomes more accessible to less experienced FME users. Simply run the workspace with prompts and fill in the details. The style codes are added to the data using AttributeCreator transformers with conditional values (like CASE WHEN statements). This bypases the rather convoluted SQL scripts provided by OS. You are welcome to download, explore and try this FME workspace [here][FME-Workspace]. 
 
 ----------------------- ------------------------------------
 ![notice](https://s3-eu-west-1.amazonaws.com/shbcdatastore/Imbox_notice.png) **Notice**
@@ -53,3 +53,4 @@ Now, FME isn't perfect either. It's a proprietary system and the scale of the fu
 [Safe Software]: http://www.safe.com/
 [FME]: http://www.safe.com/fme/fme-desktop/index_a.php?utm_expid=104599522-5.6ohgqbwfQxqX1uiFeVryMw.1&utm_referrer=http%3A%2F%2Fwww.safe.com%2Fhow-it-works%2F
 [notice]: https://s3-eu-west-1.amazonaws.com/shbcdatastore/Imbox_notice.png
+[FME-Workspace]: https://github.com/surreydigitalservices/fme-workspaces/blob/master/osmm_loader_share.fmw
