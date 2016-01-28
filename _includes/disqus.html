@@ -7,10 +7,10 @@ this.page.identifier = '{{ page.url }}';
 (function() {
 var d = document, s = d.createElement('script');
 
-s.src = '//{{ disqus_shortname }}.disqus.com/embed.js';
+s.src = '//{{ site.disqus_shortname }}.disqus.com/embed.js';
 
 s.setAttribute('data-timestamp', +new Date());
 (d.head || d.body).appendChild(s);
 })();
 </script>
-<script id="dsq-count-scr" src="//surreydigitalservices.disqus.com/count.js" async></script>
+<script id="dsq-count-scr" src="//{{ site.disqus_shortname }}.disqus.com/count.js" async></script>
