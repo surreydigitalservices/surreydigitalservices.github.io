@@ -21,7 +21,7 @@ First a preview of what we can produce:
 
 In red is the South facing aspect area of a rooftop. In blue are buildings we are interested in analysing.
 
-![image of product](https://raw.githubusercontent.com/surreydigitalservices/surreydigitalservices.github.io/master/images/Roof-aspect-analysis/roof-aspect-product.png)
+![image of product](/images/Roof-aspect-analysis/roof-aspect-product.png){ .img-responsive }
 
 ### Workflow Outline
 
@@ -41,11 +41,11 @@ In red is the South facing aspect area of a rooftop. In blue are buildings we ar
 	
 	Source asc file:
 	
-	![image of asc input](https://raw.githubusercontent.com/surreydigitalservices/surreydigitalservices.github.io/master/images/Roof-aspect-analysis/roof-aspect-dsm-asc.png)
+	![image of asc input](/images/Roof-aspect-analysis/roof-aspect-dsm-asc.png){ .img-responsive }
 	
 	Output tif file:
 	
-	![image of output tif](https://raw.githubusercontent.com/surreydigitalservices/surreydigitalservices.github.io/master/images/Roof-aspect-analysis/roof-aspect-dsm-aspect.png)
+	![image of output tif](/images/Roof-aspect-analysis/roof-aspect-dsm-aspect.png){ .img-responsive }
 
 1. #### Reclassify aspect rasters to simplify values
 	
@@ -53,7 +53,7 @@ In red is the South facing aspect area of a rooftop. In blue are buildings we ar
 
 	This reclassification is done to set the pixel value to 1 if the aspect is between 135-225 degrees from North and 0 if it is not. Reclassifying helps speed up later processes and reduce file sizes.
 
-	![image of reclassified tif](https://raw.githubusercontent.com/surreydigitalservices/surreydigitalservices.github.io/master/images/Roof-aspect-analysis/roof-aspect-dsm-aspect-reclassified.png)
+	![image of reclassified tif](/images/Roof-aspect-analysis/roof-aspect-dsm-aspect-reclassified.png){ .img-responsive }
 	
 1. #### Polygonize the aspect rasters
 	
@@ -61,7 +61,7 @@ In red is the South facing aspect area of a rooftop. In blue are buildings we ar
 
 	This process converts rasters to vector data. We need to query the data later to calculate surface areas so converting the data to vector is useful here.
 
-	![image of polygonize](https://raw.githubusercontent.com/surreydigitalservices/surreydigitalservices.github.io/master/images/Roof-aspect-analysis/roof-aspect-dsm-aspect-reclassified-polygonized.png)
+	![image of polygonize](/images/Roof-aspect-analysis/roof-aspect-dsm-aspect-reclassified-polygonized.png){ .img-responsive }
 	
 1. #### Load into PostGIS (filter out unwanted classes on import)
 	
@@ -69,13 +69,13 @@ In red is the South facing aspect area of a rooftop. In blue are buildings we ar
 
 	This leaves us with a vector layer of all South facing areas.
 
-	![image of polygonized tif](https://raw.githubusercontent.com/surreydigitalservices/surreydigitalservices.github.io/master/images/Roof-aspect-analysis/roof-aspect-postgis-vector.png)
+	![image of polygonized tif](/images/Roof-aspect-analysis/roof-aspect-postgis-vector.png){ .img-responsive }
 	
 1. #### Clip out features not within target building polygons
 	
 	The aspect layer is clipped to our building layer so that the surface area estimates only include the building extent. 
 
-	![image of postgis vector](https://raw.githubusercontent.com/surreydigitalservices/surreydigitalservices.github.io/master/images/Roof-aspect-analysis/roof-aspect-postgis-vector-clipped.png)
+	![image of postgis vector](/images/Roof-aspect-analysis/roof-aspect-postgis-vector-clipped.png){ .img-responsive }
 	
 1. #### Select features within the target building polygons, includes area sizes
 
@@ -88,7 +88,7 @@ In red is the South facing aspect area of a rooftop. In blue are buildings we ar
 
 Everything filtered, clipped and queried...
 
-![image of product](https://raw.githubusercontent.com/surreydigitalservices/surreydigitalservices.github.io/master/images/Roof-aspect-analysis/roof-aspect-product.png)
+![image of product](/images/Roof-aspect-analysis/roof-aspect-product.png){ .img-responsive }
 	
 ### Credit
 - Aerial imagery and lidar: © Bluesky Internation Limited
