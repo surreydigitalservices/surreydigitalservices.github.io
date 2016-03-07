@@ -75,3 +75,78 @@ footer {
 .icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
 .icon > svg path { fill: #828282; }
 .post-comment-count { color: #4caf50; }
+
+/* Service Stage */
+.label-stage {
+	border-radius: 0;
+	letter-spacing: 1px;
+	font-size: 19px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 10px;
+	display: inline-block;
+	background-color: #777;
+}
+.service-stage
+{
+    margin-top: -20px;
+    padding: 1em 0 0.5em;
+    margin-bottom: 20px;
+}
+.service-stage .row
+{
+    padding-bottom: 1em;
+    border-bottom: 1px solid #2e3133;
+}
+.service-stage-pre-alpha,
+.label-pre-alpha,
+.service-stage-discovery,
+.label-discovery
+{
+    background-color: #912b88;
+    color: #fff;
+}
+.text-discovery
+{
+	color: #912b88;
+}
+.service-stage-alpha,
+.label-alpha
+{
+	background-color: #d53880;
+}
+.text-alpha
+{
+	color: #d53880;
+}
+.service-stage-beta,
+.label-beta
+{
+	background-color: #f47738;
+}
+.text-beta
+{
+	color: #f47738;
+}
+.service-stage-live,
+.label-live
+{
+	background-color: #85994b;
+}
+.text-live
+{
+	color: #85994b;
+}
+.service-stage-retirement,
+.label-retirement
+{
+	background-color: #bfc1c3;
+}
+.text-retirement
+{
+	color: #bfc1c3;
+}
+.label-public
+{
+	color:	#0b0c0c;
+}

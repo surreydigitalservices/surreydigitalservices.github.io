@@ -7,6 +7,7 @@ url: https://surreydigitalservices.github.io # the base hostname & protocol for 
 twitter_username: SurreyDS
 github_username:  SurreyDigitalServices
 disqus_shortname: surreydigitalservices
+analytics : UA-74647974-1
 
 # Build settings
 safe: true

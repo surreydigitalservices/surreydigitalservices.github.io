@@ -15,7 +15,19 @@
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-74647974-1', 'auto');
+      ga('create', '{{ site.analytics }}', 'auto');
       ga('send', 'pageview');
     </script>
+    <meta property="og:title" content="{{ page.title }}">
+    <meta property="og:site_name" content="{{ site.title }}">
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
+    <meta name="twitter:title" content="{{ page.title }}{% if page.title %} - {% endif %}{{ site.title }}">
+    <meta name="twitter:description" content="{{ page.description }}">
+    {% if page.imageurl %}
+    <meta property="og:image" content="{{ page.imageurl }}">
+    <meta name="twitter:image" content="{{ page.imageurl }}">
+    {% endif %}
 </head>
