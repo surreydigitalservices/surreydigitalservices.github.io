@@ -3,7 +3,7 @@ title: Surrey Digital Services
 description: >
   
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://surreydigitalservices.github.io" # the base hostname & protocol for your site
+url: https://surreydigitalservices.github.io # the base hostname & protocol for your site
 twitter_username: SurreyDS
 github_username:  SurreyDigitalServices
 disqus_shortname: surreydigitalservices
