@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Commodity GIS"
-date:   2016-01-25 11:54:38
+date:   2016-03-11 15:00:00
 category: GIS
 tags: GIS
 author: James Rutter
