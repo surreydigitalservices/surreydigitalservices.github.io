@@ -6,25 +6,13 @@ category: GIS
 tags: GIS
 author: James Rutter
 ---
-
-Commodity GIS
--------------
-
-…..so at Surrey Heath, we (the GIS team...all two of us) find ourselves in the nice position of knowing a bit about data and how to handle it. By handle it I mean how to obtain it, how to transform or do something with it and how to put it somewhere else or publish it.
+...so at Surrey Heath, we (the GIS team...all two of us) find ourselves in the nice position of knowing a bit about data and how to handle it. By handle it I mean how to obtain it, how to transform or do something with it and how to put it somewhere else or publish it.
 
 Dabbling with data has led us into new business areas. Who knew the GIS team would provide an automated workflow to publish their Council’s expenditure details? Fact...GIS is not just about playing amateur cartographers in front of burgeoning ESRI software anymore. The ‘I’ in GIS is taking centre stage because increasingly our knowledge is being used to turn data into information, and frequently that information might have no geospatial component (albeit nice if it does).
 
 During the last few years we have been moving away from the traditional GI vendor single platform scenario and incorporating a decent blend of open source and proprietary software (we gave up Oracle and moved to PostGIS nearly ten years ago). Incidentally, we do not expect a ‘free ride’ from open source and have contributed to funding core development and plugin development for Qgis. As my friend Steven Feldman oft quotes:- 
 
-
-----------
-
-
 >“You get what you pay for. Everyone else gets what you pay for. You get what everyone else pays for.” 
-
-
-----------
-
 
 However there is another change occurring. ‘Digital’ is a word interpreted differently by different people. Personally I like this interpretation…
 
@@ -64,8 +52,6 @@ Capturing grounds maintenance data with Fulcrum
 ![alt text](https://s3-eu-west-1.amazonaws.com/shbcdatastore/web_image_hosting/Fulcrum_apps.png "iPhone")
 Different Fulcrum data capture apps
 
-
-
 [fulcrum]: http://www.fulcrumapp.com
 [amazon rds]:https://aws.amazon.com/rds/ 
 [cartodb]:http://cartodb.com 
@@ -75,4 +61,3 @@ Different Fulcrum data capture apps
 [sendgrid]:http://www.sendgrid.com
 
 > Written with [StackEdit](https://stackedit.io/).
-
