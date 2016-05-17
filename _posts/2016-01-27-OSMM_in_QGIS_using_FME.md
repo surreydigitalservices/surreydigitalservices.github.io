@@ -4,7 +4,7 @@ title:  "MasterMap Topographic Layer in QGIS"
 date:   2016-01-27 11:54:38
 category: Ordnance Survey
 tags: Ordnance Survey, QGIS
-author: David
+author: David McDermott
 ---
 
 In July 2015, Ordnance Survey published new styling options for its MasterMap Topographic Layer. These new styles complemented the backdrop styles for the VectorMap products, Meridian2 and Strategi very well. The stylesheets can be downloaded here:
