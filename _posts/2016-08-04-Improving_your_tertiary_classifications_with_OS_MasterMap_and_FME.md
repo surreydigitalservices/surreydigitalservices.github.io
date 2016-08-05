@@ -3,7 +3,7 @@ layout: post
 title:  "Improving your tertiary classifications with OS MasterMap and FME"
 date:   2016-08-04 11:54:38
 category: Ordnance Survey
-tags: Ordnance Survey, QGIS
+tags: Ordnance Survey, FME
 author: David McDermott
 ---
 
