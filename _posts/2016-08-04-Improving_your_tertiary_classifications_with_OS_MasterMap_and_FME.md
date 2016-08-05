@@ -47,7 +47,7 @@ UPDATE osmm_sandbox.mmbuild_25 AS a
 SET toid_status = 'END' WHERE toid_hits = 1 AND exists(SELECT 'x' FROM osmm_sandbox.mmbuild_25 as b where st_touches(a.wkb_geometry, b.wkb_geometry) and toid_hits = 2 );
 ```
 
-Filtering out building polygons less than 25 sq.m excludes garages and small ancillary buildings. This is not perfect; there are infact house with smaller than 25 sq.m, but it was a good starting point. 
+Filtering out building polygons less than 25 sq.m excludes garages and small ancillary buildings, which can easily mess up the spatial query. This is not perfect; there are infact house with smaller than 25 sq.m, but it was a good starting point. 
 
 To my shame, I never really progressed further than this project. Other projects ended up taking priority, and there were a few conditionals that needed to be met in the gazetteer first before phase two could be implemented. 
 
