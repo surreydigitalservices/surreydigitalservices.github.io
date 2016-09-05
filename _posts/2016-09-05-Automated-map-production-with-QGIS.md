@@ -7,8 +7,6 @@ tags: Python, QGIS
 author: Robert Spiers
 ---
 
-# Automatic map production with QGIS
-
 ### Purpose
 I needed to create create standardised PDF maps on a regular basis. For this I usually use a template set up in QGIS then export PDFs using the atlas feature. However... I found this can be entirely automated so you don't even need to open the QGIS program to export the product. This can be used to automate map production as a scheduled job or batch produce maps when new data is available.
 
