@@ -9,6 +9,9 @@ author: Robert Spiers
 
 This post shows to use Python to geocode a list of UPRNs using SDS [AddressBase API](https://surreydigitalservices.github.io/sds-addresses/).
 
+### Update
+The formatting is not great so check [out the post directly](https://github.com/surreydigitalservices/surreydigitalservices.github.io/edit/master/_posts/2017-05-12-Using-SDS-AddressBase-API-as-a-Geocoder.md)!
+
 ### Query the API using Python Requests
 
 Lookup a single UPRN - try this out in python console to see how it works:
