@@ -168,7 +168,7 @@ def Geocode():
 Geocode()
 ```
 
-To use it copy the contents into a file called `Geocoder.py` ([or download from here](https://github.com/surreydigitalservices/SDS-python-geocoder/blob/master/Geocoder.py) and save this to a directory on your machine. Replace `my_secret_api_key` with your SDS AddressBase API key on line 23.
+To use it copy the contents into a file called `Geocoder.py` [or download from here](https://github.com/surreydigitalservices/SDS-python-geocoder/blob/master/Geocoder.py) and save this to a directory on your machine. Replace `my_secret_api_key` with your SDS AddressBase API key on line 23.
 
 Create a csv of UPRNs called `uprn_targets.csv`. Put this in the same folder. [Example csv here](https://github.com/surreydigitalservices/SDS-python-geocoder/blob/master/uprn_targets.csv).
 
