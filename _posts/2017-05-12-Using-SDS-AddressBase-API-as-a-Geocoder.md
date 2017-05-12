@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using SDS AddressBase API as a Geocoder"
+title:  "Using SDS AddressBase API as a UK-wide Geocoder"
 date:   2017-05-12 09:00:00
 category: Python
 tags: Python,Geocode,UPRN,AddressBase
