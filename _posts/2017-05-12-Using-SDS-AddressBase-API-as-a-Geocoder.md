@@ -7,7 +7,7 @@ tags: Python,Geocode,UPRN,AddressBase
 author: Robert Spiers
 ---
 
-This post shows to use Python to geocode a list of UPRNs using SDS [AddressBase API](https://surreydigitalservices.github.io/sds-addresses/) with Python.
+This post shows to use Python to geocode a list of UPRNs using SDS [AddressBase API](https://surreydigitalservices.github.io/sds-addresses/).
 
 ### Query the API using Python Requests
 
